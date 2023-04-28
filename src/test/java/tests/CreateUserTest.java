@@ -5,6 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 import pageobjects.pages.bookstorepage.LoginPage;
+import pageobjects.pages.landingpage.LandingPage;
 import pageobjects.pages.bookstorepage.RegistrationPage;
 
 class CreateUserTest {
@@ -12,6 +13,8 @@ class CreateUserTest {
     private WebDriver driver;
     private LoginPage loginPage;
     private RegistrationPage registrationPage;
+
+    private LandingPage landingPage;
     private String baseUrl = "https://demoqa.com/";
 
     @Before
@@ -22,6 +25,7 @@ class CreateUserTest {
         driver.get(baseUrl);
         loginPage = new LoginPage(driver);
         registrationPage = new RegistrationPage(driver);
+        landingPage = new LandingPage(driver);
     }
     @Test
     public void testCreateUser() {
