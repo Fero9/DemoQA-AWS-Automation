@@ -1,6 +1,11 @@
 package tests;
 
-import org.junit.*;
+import core.TestBase;
+import org.junit.Before;
+import org.junit.After;
+import org.junit.Test;
+import org.junit.Assert;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
@@ -8,7 +13,7 @@ import pageobjects.pages.bookstorepage.LoginPage;
 import pageobjects.pages.landingpage.LandingPage;
 import pageobjects.pages.bookstorepage.RegistrationPage;
 
-class CreateUserTest {
+public class CreateUserTest extends TestBase {
 
     private WebDriver driver;
     private LoginPage loginPage;
