@@ -20,6 +20,9 @@ public class LoginPage extends BasePage {
     @FindBy(id = "newUser")
     private WebElement registrationLink;
 
+    @FindBy(xpath = "//*[@id=\"userForm\"]/div[1]/h5")
+    private WebElement loginText;
+
     public void enterUserName(String username) {
         logger.debug("Enter username");
         userName.sendKeys(username);
@@ -38,5 +41,9 @@ public class LoginPage extends BasePage {
     public void clickRegistrationLink() {
         logger.debug("Click on the 'New User' button");
         registrationLink.click();
+    }
+
+    public String getText(){
+       return loginText.getText();
     }
 }

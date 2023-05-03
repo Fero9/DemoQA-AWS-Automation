@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42959da-5692-4e2b-bc6d-c28cb4f278e7" name="Changes" comment="Added driver configuration and driver factory">
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ConcurrentParametrizedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ConcurrentSuiteRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ConcurrentTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ParallelScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/SingleTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/BookStoreAPIPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" afterDir="false" />
+    <list default="true" id="c42959da-5692-4e2b-bc6d-c28cb4f278e7" name="Changes" comment="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/BookStorePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/landingpage/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/landingpage/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +67,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateUserTest">
+  <component name="RunManager" selected="JUnit.LogInTest">
     <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoQA-AWS-Automation" />
       <extension name="coverage">
@@ -88,6 +78,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CreateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA-AWS-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogInTest" />
         <item itemvalue="JUnit.CreateUserTest" />
         <item itemvalue="JUnit.tests in DemoQA-AWS-Automation (1)" />
         <item itemvalue="JUnit.tests in DemoQA-AWS-Automation" />
@@ -153,12 +159,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683095343639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests">
+      <created>1683109261651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683109261651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added more page objects" />
     <MESSAGE value="Added driver configuration and driver factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added driver configuration and driver factory" />
+    <MESSAGE value="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests" />
   </component>
 </project>
