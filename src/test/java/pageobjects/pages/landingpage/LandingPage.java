@@ -2,7 +2,7 @@ package pageobjects.pages.landingpage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+
 import pageobjects.base.BasePage;
 import pageobjects.pages.alertswindowspage.AlertsWindowsPage;
 import pageobjects.pages.bookstorepage.BookStorePage;
@@ -10,11 +10,11 @@ import pageobjects.pages.elementspage.ElementsPage;
 import pageobjects.pages.formspage.FormsPage;
 import pageobjects.pages.interactionspage.InteractionsPage;
 import pageobjects.pages.widgetspage.WidgetsPage;
+
 import ru.yandex.qatools.allure.annotations.Step;
+import org.openqa.selenium.support.FindBy;
 
 public class LandingPage extends BasePage {
-
-    private WebDriver driver;
 
     @FindBy(xpath = "//*[@id=\"app\"]/div/div/div[2]/div/div[1]")
     private WebElement elements;

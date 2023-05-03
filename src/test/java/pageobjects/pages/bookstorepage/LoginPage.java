@@ -3,12 +3,11 @@ package pageobjects.pages.bookstorepage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import pageobjects.base.BasePage;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
-    private WebDriver driver;
-
+    public LoginPage(WebDriver driver){super(driver);}
     @FindBy(id = "userName")
     private WebElement userName;
 
@@ -21,24 +20,23 @@ public class LoginPage {
     @FindBy(id = "newUser")
     private WebElement registrationLink;
 
-    public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
-
     public void enterUserName(String username) {
+        logger.debug("Enter username");
         userName.sendKeys(username);
     }
 
     public void enterPassword(String pass) {
+        logger.debug("Enter password");
         password.sendKeys(pass);
     }
 
     public void clickLoginButton() {
+        logger.debug("Click on the 'Login' button");
         loginButton.click();
     }
 
     public void clickRegistrationLink() {
+        logger.debug("Click on the 'New User' button");
         registrationLink.click();
     }
 }

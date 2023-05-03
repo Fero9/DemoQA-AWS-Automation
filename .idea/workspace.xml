@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c42959da-5692-4e2b-bc6d-c28cb4f278e7" name="Changes" comment="Added driver configuration and driver factory">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ConcurrentParametrizedTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ConcurrentSuiteRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ConcurrentTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/ParallelScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/runners/SingleTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/BookStoreAPIPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/BookStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/landingpage/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/landingpage/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682685553618</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added driver configuration and driver factory">
+      <created>1683095343639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683095343639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
