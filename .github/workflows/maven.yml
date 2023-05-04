@@ -31,7 +31,6 @@ jobs:
           key: ${{ secrets.AWS_KEY }}
           source: target\DemoQA-AWS-Automation-1.0-SNAPSHOT.jar
           target: /home/ec2-user/my-project.jar
-          distribution: ubuntu
 
       - name: Run tests on AWS
         uses: appleboy/ssh-action@master
