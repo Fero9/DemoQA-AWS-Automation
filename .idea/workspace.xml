@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c42959da-5692-4e2b-bc6d-c28cb4f278e7" name="Changes" comment="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests">
+    <list default="true" id="c42959da-5692-4e2b-bc6d-c28cb4f278e7" name="Changes" comment="Added a locator and a step to the ProfilePage&#10;Added some more assertions in the LogInTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/pages/bookstorepage/ProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LogInTest.java" afterDir="false" />
     </list>
@@ -46,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/PC/Documents/gitRepositories/simplyanalytics-client-test",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Documents/gitRepositories/simplyanalytics-client-test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -98,6 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogInTest.testLogIntoBookStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA-AWS-Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LogInTest" />
+      <option name="METHOD_NAME" value="testLogIntoBookStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tests in DemoQA-AWS-Automation (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoQA-AWS-Automation" />
       <option name="TEST_OBJECT" value="directory" />
@@ -123,6 +138,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LogInTest" />
+        <item itemvalue="JUnit.LogInTest.testLogIntoBookStore" />
         <item itemvalue="JUnit.CreateUserTest" />
         <item itemvalue="JUnit.tests in DemoQA-AWS-Automation (1)" />
         <item itemvalue="JUnit.tests in DemoQA-AWS-Automation" />
@@ -166,13 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683109261651</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a locator and a step to the ProfilePage&#10;Added some more assertions in the LogInTest">
+      <created>1683117707319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683117707319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added more page objects" />
     <MESSAGE value="Added driver configuration and driver factory" />
     <MESSAGE value="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some more methods to the page objects&#10;Added TestRunners&#10;Polished the tests" />
+    <MESSAGE value="Added a locator and a step to the ProfilePage&#10;Added some more assertions in the LogInTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a locator and a step to the ProfilePage&#10;Added some more assertions in the LogInTest" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((String)((ByClassName)((DefaultElementLocator)((LocatingElementHandler)this.h).locator).by).className).value" custom="org.openqa.selenium.By.ByClassName,java.lang.reflect.Proxy,org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler,java.lang.String,org.openqa.selenium.support.pagefactory.DefaultElementLocator" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
